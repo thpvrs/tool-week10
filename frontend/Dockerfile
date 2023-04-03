@@ -1,2 +1,2 @@
-FROM ubuntu
-COPY ./upload.html /var/www/html
+FROM nginx:latest
+COPY ./uploadl.html /usr/share/nginx/html/index.html
