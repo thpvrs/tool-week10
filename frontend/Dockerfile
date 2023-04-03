@@ -1,2 +1,2 @@
-FROM nginx:latest
-COPY ./frontend-upload.html /usr/share/nginx/html/index.html
+FROM ubuntu
+COPY upload.html /var/www/html
