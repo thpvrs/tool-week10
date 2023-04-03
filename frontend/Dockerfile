@@ -1,2 +1,2 @@
-FROM nginx:alpine
-COPY . /frontend/upload.html
+FROM nginx:latest
+COPY ./frontend-upload.html /usr/share/nginx/html/index.html
