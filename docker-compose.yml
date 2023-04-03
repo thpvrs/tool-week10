@@ -15,7 +15,7 @@ services:
     build: ./frontend
     image: 63070104/img-frontend1:1.0
     ports: 
-      - 3000:3000
+      - 3000:80
     links:
       - backend
     networks:
