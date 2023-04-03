@@ -1,2 +1,2 @@
-FROM nginx:latest
-COPY ./uploadl.html /usr/share/nginx/html
+FROM ubuntu
+COPY upload.html /var/www/html
